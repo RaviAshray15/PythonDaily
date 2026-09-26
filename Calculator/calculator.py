@@ -38,6 +38,7 @@ def calculator():
 
         elif choice == 'n':
             should_accumulate = False
+            print("\n" * 2)
             calculator()
             
 calculator()
